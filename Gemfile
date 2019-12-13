@@ -17,7 +17,6 @@ gem 'puma', '~> 4.1'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'selenium-webdriver'
-gem 'pry'
 gem 'dotenv'
 
 # Use Active Storage variant
@@ -32,6 +31,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'hirb'   
+  gem 'hirb-unicode'
+  gem 'pry-rails'  
+  gem 'pry-byebug'
 end
 
 group :development do
