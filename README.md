@@ -1,25 +1,16 @@
 # README
+デリヘルタウンをスクレイピングして、今すぐ呼べるデリ嬢をDBに保存。
+カップ数、バスト、ウエストなどで検索できる。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+キス	無料	手コキ	無料
+口内発射	無料	生フェラ	無料
+即尺	無料	全身リップ	無料
+玉舐め	無料	69	無料
+素股	無料	立ちクンニ	無料
+仁王立ち	無料	バイブ	無料
+ローター	無料	コスプレ	無料
+イメージプレイ	無料	アナル舐め	無料
+放尿	無料	AF	無料
+ごっくん	無料	顔射
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# zukkon-bakkon-api
+お好みのオプションで今すぐ検索！！！！！！！
