@@ -15,14 +15,13 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
   create_table "girls", force: :cascade do |t|
     t.string "shop_id"
     t.string "name"
-    t.integer "bust"
-    t.integer "hip"
-    t.integer "waist"
-    t.string "cup"
+    t.string "bust"
+    t.string "hip"
+    t.string "waist"
     t.integer "age"
     t.integer "height"
     t.time "work_time"
-    t.string "eroginous_zone"
+    t.string "erogenous_zone"
     t.text "recommend_message"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -43,6 +42,9 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
   end
 
   create_table "prices", force: :cascade do |t|
+    t.integer "plan_id"
+    t.integer "minutes"
+    t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -50,12 +52,11 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
   create_table "shops", force: :cascade do |t|
     t.string "name"
     t.string "shop_url"
-    t.time "open_time"
-    t.time "close_time"
-    t.time "play_time"
+    t.string "open_time"
     t.integer "price"
-    t.integer "tell_number"
+    t.string "tell_number"
     t.string "description"
+    t.string "title"
     t.string "trip_area"
     t.string "holiday"
     t.integer "admission"
