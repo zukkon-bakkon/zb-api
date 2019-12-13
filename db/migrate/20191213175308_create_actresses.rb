@@ -11,6 +11,7 @@ class CreateActresses < ActiveRecord::Migration[6.0]
       t.time :work_time
       t.string :erogenous_zone
       t.text :recommend_message
+      t.string :image_url
 
       t.timestamps
     end

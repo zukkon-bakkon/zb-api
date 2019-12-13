@@ -14,6 +14,7 @@ class CreateShops < ActiveRecord::Migration[6.0]
       t.integer :designation_fee
       t.integer :trans_fee
       t.string :payment
+      t.string :image_url
 
       t.timestamps
     end
