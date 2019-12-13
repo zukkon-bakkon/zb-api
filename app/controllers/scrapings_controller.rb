@@ -41,6 +41,7 @@ sleep 2
          fees = driver.find_elements(:css, '.list .style2') 
          shop_one = Shop.new(name: name.text, tell_number: table_elements[0].text,trip_area: trip_area.text, holiday: table_elements[3].text,open_time: table_elements[5].text, title: title.text, description: description.text, admission:  fees[0].text == "無料"  ?  0 : fees[0].text.delete("円").delete(",").to_i, designation_fee: fees[1].text == "無料" ? 0 :fees[1].text.delete("円").delete(",").to_i )
          shop_one.save
+        #  Girl.create(shop_id: shop_one.id)
         end
 
    
