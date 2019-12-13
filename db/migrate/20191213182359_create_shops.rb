@@ -3,8 +3,7 @@ class CreateShops < ActiveRecord::Migration[6.0]
     create_table :shops do |t|
       t.string :name
       t.string :shop_url
-      t.time :open_time
-      t.time :close_time
+      t.string :open_time
       t.time :play_time
       t.integer :price
       t.integer :tell_number
