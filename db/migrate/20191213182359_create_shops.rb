@@ -6,7 +6,7 @@ class CreateShops < ActiveRecord::Migration[6.0]
       t.string :open_time
       t.time :play_time
       t.integer :price
-      t.integer :tell_number
+      t.string :tell_number
       t.string :description
       t.string :trip_area
       t.string :holiday
