@@ -29,7 +29,7 @@ sleep 2
   # 検索欄/検索ボタン取得
   begin
 
-        shop_names = driver.find_elements(:css, '.com_shop_list .shop > a') 
+        shop_names = driver.find_elements(:css, '.com_shop_list.style1 .shop > a') 
         shops = shop_names.map {|name| {name: name.text,url: name.attribute("href")}}
         shops.each do |shop|
          driver.get(shop[:url])
