@@ -3,9 +3,9 @@ class ScrapingsController < ApplicationController
 
     require 'selenium-webdriver'
     require 'pry'
-    puts "スクレイピングを開始しますか?(yes / no")             
-    answer = gets.chomp
-if answer === "yes"
+    puts "スクレイピングを開始しますか?(yes / no)"            
+    answer = STDIN.gets.chomp
+  if answer === "yes"
 
 
       @wait_time = 3 
