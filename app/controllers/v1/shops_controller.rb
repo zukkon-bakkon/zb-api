@@ -1,6 +1,6 @@
 class V1::ShopsController < ApplicationController
   def index
-    shops = Shop.all
-    render :json => shops, :include => {:girls}
+    shops = Shop.first
+    render json: shops.to_json(:include => :girls)
   end
 end
