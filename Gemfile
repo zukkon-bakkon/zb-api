@@ -18,6 +18,7 @@ gem 'puma', '~> 4.1'
 
 gem 'selenium-webdriver'
 gem 'dotenv'
+gem 'active_model_serializers'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
