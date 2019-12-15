@@ -4,7 +4,6 @@ class CreateShops < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :image_url
       t.string :open_time
-      t.integer :price
       t.string :tell_number
       t.string :description
       t.string :title
@@ -12,7 +11,6 @@ class CreateShops < ActiveRecord::Migration[6.0]
       t.string :holiday
       t.integer :admission
       t.integer :designation_fee
-      t.integer :trans_fee
       t.string :payment
 
       t.timestamps
