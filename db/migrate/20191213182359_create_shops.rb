@@ -12,6 +12,7 @@ class CreateShops < ActiveRecord::Migration[6.0]
       t.integer :admission
       t.integer :designation_fee
       t.string :payment
+      t.string :image_url
 
       t.timestamps
     end
