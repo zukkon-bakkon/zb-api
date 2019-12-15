@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
 
   create_table "shops", force: :cascade do |t|
     t.string "name"
-    t.string "shop_url"
+    t.string "image_url"
     t.string "open_time"
     t.integer "price"
     t.string "tell_number"
