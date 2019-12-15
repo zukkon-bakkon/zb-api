@@ -4,6 +4,10 @@ class ScrapingsController < ApplicationController
     require 'selenium-webdriver'
     require 'pry'
 
+    answer = gets.chomp("スクレイピングを開始しますか?(yes / no")
+if answer === "yes"
+
+
 @wait_time = 3 
 @timeout = 4
 
@@ -20,6 +24,8 @@ driver.get("https://www.dto.jp/shibuya/shop-list")
 
 # ちゃんと開けているか確認するため、sleepを入れる
 sleep 2
+
+
 
 #**
   # ブラウザでさせたい動作を記載する
@@ -70,4 +76,5 @@ sleep 2
 # ドライバーを閉じる
 driver.quit
   end
+end
 end
