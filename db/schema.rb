@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
     t.time "work_time"
     t.string "erogenous_zone"
     t.text "recommend_message"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -53,7 +54,6 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
     t.string "name"
     t.string "image_url"
     t.string "open_time"
-    t.integer "price"
     t.string "tell_number"
     t.string "description"
     t.string "title"
@@ -61,7 +61,6 @@ ActiveRecord::Schema.define(version: 2019_12_13_193804) do
     t.string "holiday"
     t.integer "admission"
     t.integer "designation_fee"
-    t.integer "trans_fee"
     t.string "payment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
